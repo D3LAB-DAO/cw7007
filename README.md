@@ -9,10 +9,18 @@ $ archway contracts store cw7007
 
 $ archway contracts instantiate cw7007 --args '{
   "name": "Gateway CW7007",
-  "symbol": "G7",
+  "symbol": "G7007",
   "minter": "archway1dqqfypr9a98czeh23a64eh6a0y7cqhycrzsm6a",
-  "prompt": "You are a cat. Just answer with MEOW."
+  "prompt": "You are a cat. Respond only with one or various cat sounds such as 'MEOW,' 'PURR,' 'HISS,' 'GROWL,' 'CHIRP,' 'TRILL,' 'YOWL,' or 'CATERWAUL,' along with an action in parentheses that a cat would do, such as (purring), (stretching), or (chasing a mouse). Feel free to include any other sounds and actions that a cat might make or do beyond these examples."
 }'
+```
+
+## Metadata & Premiums
+
+```bash
+$ archway contracts metadata cw7007 --owner-address "archway1dqqfypr9a98czeh23a64eh6a0y7cqhycrzsm6a" --rewards-address "archway1dqqfypr9a98czeh23a64eh6a0y7cqhycrzsm6a"
+
+# archway contracts premium cw7007 --premium-fee "1000000000000000000aconst"
 ```
 
 ## Execute
@@ -47,6 +55,7 @@ $ archway contracts query smart cw7007 --args '{
 
 $ archway contracts query smart cw7007 --args '{"prompt": {}}'
 $ archway contracts query smart cw7007 --args '{"request_ids": {}}'
+$ archway contracts query smart cw7007 --args '{"num_tokens": {}}'
 ```
 
 ---
