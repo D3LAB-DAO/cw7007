@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 350 350">
+    <style>.base { fill: white; font-family: serif; font-size: 20px; }</style>
+    <rect width="100%" height="100%" fill="black" />
+    <text x="10" y="20" class="base">{</text>
+    <text x="30" y="40" class="base">012345678901234567890123456789</text>
+    <text x="30" y="60" class="base">Hood</text>
+    <text x="30" y="80" class="base">War Belt</text>
+    <text x="10" y="340" class="base">}</text>
+</svg>

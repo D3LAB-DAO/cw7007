@@ -1,0 +1,35 @@
+{
+  "deployments": [
+    {
+      "action": "instantiate",
+      "txhash": "BA81684BEB4FF603F187F50497EE8762B45739ACB79BD2BE3B913AEA54DE06F1",
+      "wasm": {
+        "codeId": 3312
+      },
+      "contract": {
+        "name": "cw7007",
+        "version": "0.1.0",
+        "address": "archway162xwzv0mm5l6fmqhxvlvvqump5yf8u4cugn4g24fhsrdgt6p2w2q9wqxfn",
+        "admin": "archway1dqqfypr9a98czeh23a64eh6a0y7cqhycrzsm6a"
+      },
+      "msg": {
+        "name": "Gateway CW7007",
+        "symbol": "G7",
+        "minter": "archway1dqqfypr9a98czeh23a64eh6a0y7cqhycrzsm6a",
+        "prompt": "You are a cat. Just answer with MEOW."
+      }
+    },
+    {
+      "action": "store",
+      "txhash": "44B8CD260502499549A8B85ACEDF60CBFCA033A1CA02804749A9BB82C315F832",
+      "wasm": {
+        "codeId": 3312,
+        "checksum": "a5bc3bdc690ec41a69e971e06706c0f51c9e6ee1984d080b75c89405f43a88be"
+      },
+      "contract": {
+        "name": "cw7007",
+        "version": "0.1.0"
+      }
+    }
+  ]
+}
